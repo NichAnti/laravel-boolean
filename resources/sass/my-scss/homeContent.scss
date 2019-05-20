@@ -1,0 +1,126 @@
+.home-content {
+
+  position: relative;
+  background: white;
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+
+  .home-content-cnt {
+
+    position: absolute;
+    top: 0;
+    left: 15%;
+    width: 70%;
+    margin: auto;
+    height: 100%;
+    z-index: 4;
+
+    > div {
+
+    margin: auto;
+    max-width: 550px;
+    }
+
+    .home-content-cnt-element {
+
+      h1 {
+        font-weight: 400;
+        font-size: 50px;
+        color: #61CE4E;
+        line-height: 60px;
+      }
+
+      p {
+        font-size: 18px;
+        color: #1B3C59;
+        margin-bottom: 40px;
+      }
+
+      .my__home__button {
+        background: #F47637;
+        max-height: 40px;
+        padding: 15px 20px;
+        border-radius: 2px;
+        color: white;
+        font-size: 18px;
+        text-transform: uppercase;
+      }
+    }
+
+    .home-content-cnt-img {
+
+      h1 {
+        display: none;
+        margin: 30px 0;
+        font-weight: 400;
+        font-size: 50px;
+        color: #1B3C59;
+        text-align: center;
+      }
+
+      img {
+        width: 550px;
+        max-width: 100%;
+      }
+    }
+  }
+
+}
+
+@media (max-width: 991.98px) {
+  .home-content {
+    height: 700px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .home-content {
+    height: 800px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .home-content .home-content-cnt .home-content-cnt-element .my__home__button__cnt {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  .home-content .home-content-cnt {
+    left: 5%;
+    width: 90%;
+  }
+}
+
+
+@media (max-width: 991.98px) {
+  .home-content .home-content-cnt .home-content-cnt-element h1 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1700px) {
+  .home-content .home-content-cnt .home-content-cnt-element h1 {
+    font-size: 45px;
+  }
+}
+
+@media screen and (max-width: 1190px) {
+  .home-content-cnt-element h1 {
+    line-height: 40px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .home-content .home-content-cnt .home-content-cnt-img h1 {
+    display: block;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .home-content .home-content-cnt .home-content-cnt-img img {
+    display: block;
+    margin: 30px auto;
+  }
+}

@@ -1,5 +1,5 @@
-<div class="container-fluid">
-  <nav class="my__navbar navbar navbar-expand-lg navbar-light bg-light">
+<div class="container-fluid nav-container">
+  <nav class="my__navbar navbar navbar-expand-lg navbar-light">
     <a class="navbar-brand my__logo">
       <img src="https://www.boolean.careers/images/common/logo.png" alt="">
     </a>
